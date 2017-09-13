@@ -14,11 +14,13 @@
 * <esc> switches between right and left panes(?)
 * Vim keybindings?
 
-Uses
-* graph database backed
-* MVP
-  * create a node w/ an id and textual data
-  * associate a node with other nodes manually
-  * edit associations on an existing node
+### Initial Tech Decisions
+* neo4j graph database
+* python 3.6
+
+### MVP
+* create a node w/ an id and textual data
+* associate a node with other nodes manually
+* edit associations on an existing node
   
  
