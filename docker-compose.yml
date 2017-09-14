@@ -1,6 +1,7 @@
-version: "3"
+version: "2"
 services:
   web:
+    build: .
     links:
       - neo4j
     volumes:
@@ -8,7 +9,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - FLASK_APP=main/main.py
+      - FLASK_APP=/app/main.py
       - FLASK_DEBUG=1
       - 'RUN=flask run --host=0.0.0.0 --port=8080'
     command: flask run --host=0.0.0.0 --port=8080
