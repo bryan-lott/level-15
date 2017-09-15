@@ -24,3 +24,11 @@
 * edit associations on an existing node
   
  
+## Development
+
+### Virtualenv
+
+```virtualenv -p /usr/local/bin/python3 .
+source bin/activate.fish
+pip3 install -r requirements.txt
+```
