@@ -1,5 +1,7 @@
 # level-15
-[idea] Digital representation of 3x5" notecards with modal editing and searching
+Digital representation of 3x5" notecards with dual-pane modal editing and searching.
+
+Note: this is currently a work in progress.
 
 ### Visual depiction:
 * Split screen.  
