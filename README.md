@@ -28,7 +28,14 @@
 
 ### Virtualenv
 
-```virtualenv -p /usr/local/bin/python3 .
+```bash
+virtualenv -p /usr/local/bin/python3 .
 source bin/activate.fish
 pip3 install -r requirements.txt
+```
+
+### Docker
+
+```bash
+docker-compose up
 ```
