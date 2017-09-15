@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+  <ul class=entries>
+  {% for card in all_cards %}
+      <li><h2>{{ card.name }}</h2>
+          <a href="{{ url_for('edit', card_id=card.id) }}">edit</a>
+          <a href="{{ url_for('view', card_id=card.id) }}">view</a>
+          <br>
+          {{ card.text|safe }}
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em>
+  {% endfor %}
+  </ul>
+{% endblock %}

@@ -101,3 +101,11 @@ ENV/
 .mypy_cache/
 
 \.tags
+
+\.idea/
+
+bin/
+
+pip-selfcheck\.json
+
+include/
