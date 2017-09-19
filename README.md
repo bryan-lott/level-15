@@ -39,5 +39,6 @@ pip3 install -r requirements.txt
 ### Docker
 
 ```bash
+docker-compose build
 docker-compose up
 ```
