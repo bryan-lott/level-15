@@ -1,7 +1,9 @@
 # level-15
 Digital representation of 3x5" notecards with dual-pane modal editing and searching.
 
-Note: this is currently a work in progress.
+## Project Status
+* Incomplete
+* On-hold for the time being while I evaluate a commercial product ([Workflowy](https://workflowy.com)) that may give me what I was looking for from this project.
 
 ### Visual depiction:
 * Split screen.  
