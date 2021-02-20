@@ -40,8 +40,6 @@
   - [documentation](https://github.com/hoffstadt/DearPyGui/wiki)
   - [blog post/tutorial](https://medium.com/datadriveninvestor/create-quick-and-powerful-guis-using-dear-pygui-in-python-713cc138bf5a)
 
-![requirements.txt](./requirements.txt)
-
 ## Development
 
 ### Virtual Environment
