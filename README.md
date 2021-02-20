@@ -41,3 +41,17 @@
   - [blog post/tutorial](https://medium.com/datadriveninvestor/create-quick-and-powerful-guis-using-dear-pygui-in-python-713cc138bf5a)
 
 ![requirements.txt](./requirements.txt)
+
+## Development
+
+### Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate.sh
+pip install -r requirements.txt
+```
+
+### Docker
+
+Still working on this one... DearPyGUI doesn't seem to play nicely with containerization (mostly because it can't figure out a window).  Definitely something to solve, but not right away.
